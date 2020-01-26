@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Route, Switch, Redirect, withRouter } from 'react-router-dom';
+
+import Home from './containers/Home/Home';
+import Hobbies from './containers/Hobbies/Hobbies';
+import Work from './containers/Work/Work';
+import Qualifications from './containers/Qualifications/Qualifications';
+import './App.scss';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  let routes = (
+    <Switch>
+      <Route path='/hobbies' component={Hobbies} />
+      <Route path='/work' component={Work} />
+      <Route path='/qualifications' component={Qualifications} />
+      <Route path='/' exact component={Home} />
+      <Redirect to='/' />
+    </Switch>
   );
+
+  return { routes };
 }
 
 export default App;
