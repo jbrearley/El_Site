@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch, Redirect, withRouter } from 'react-router-dom';
+import { Route, Switch, Redirect } from 'react-router-dom';
 
 import Home from './containers/Home/Home';
 import Hobbies from './containers/Hobbies/Hobbies';
@@ -18,7 +18,7 @@ function App() {
     </Switch>
   );
 
-  return { routes };
+  return [routes];
 }
 
 export default App;
