@@ -1,6 +1,8 @@
 import React from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 import Home from './containers/Home/Home';
 import Hobbies from './containers/Hobbies/Hobbies';
 import Work from './containers/Work/Work';
@@ -18,7 +20,13 @@ function App() {
     </Switch>
   );
 
-  return [routes];
+  return (
+    <React.Fragment>
+      <Header />
+      {routes}
+      <Footer />
+    </React.Fragment>
+  );
 }
 
 export default App;
