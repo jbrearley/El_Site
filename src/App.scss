@@ -1,0 +1,17 @@
+// Predefined Break-points
+$mediaMaxWidth: 1260px;
+$mediaBp1Width: 960px;
+$mediaMinWidth: 480px;
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.footer-container {
+  justify-content: space-around;
+}
