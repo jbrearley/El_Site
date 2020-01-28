@@ -1,10 +1,14 @@
 import React from 'react';
 
+import './Header.scss';
+
 const Header = () => {
   return (
-    <div>
-      <p>Header</p>
-    </div>
+    <header>
+      <div className='wrapper'>
+      <p>Andrew Peliza</p>
+      </div>
+    </header>
   );
 };
 
