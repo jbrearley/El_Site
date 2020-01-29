@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header>
       <div className='wrapper'>
-      <p>Andrew Peliza</p>
+        <p>Andrew Peliza</p>
       </div>
     </header>
   );

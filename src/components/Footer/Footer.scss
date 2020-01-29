@@ -1,8 +1,15 @@
+@import '../../sass/base';
+
 .section-dk-blue {
   background-color: #223344;
   color: #fff;
-  padding: 80px 0;
+  padding: 40px 0;
 
-  //   @media (min-width: $breakpoint-tablet) {
-  //   }
+  @media (min-width: $mediaMinWidth) and (max-width: $mediaTabletWidth) {
+    padding: 60px 0;
+  }
+
+  @media (min-width: $mediaTabletWidth) {
+    padding: 80px 0;
+  }
 }
