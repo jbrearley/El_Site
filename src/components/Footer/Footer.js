@@ -3,16 +3,32 @@ import React from 'react';
 import './Footer.scss';
 
 const Footer = () => (
-  <section className='section-dk-blue'>
+  <footer>
     <div className='wrapper flex-row footer-container'>
       <article>
-        <p>Footer left</p>
+        <h4 className='footer-header'>Site</h4>
+        <ul>
+          <li>Home</li>
+          <li>Experience</li>
+          <li>Projects</li>
+        </ul>
       </article>
       <article>
-        <p>Footer right</p>
+        <h4 className='footer-header'>Follow me</h4>
+        <ul>
+          <li>
+            <i className='fab fa-twitter'></i>
+          </li>
+          <li>
+            <i className='fab fa-github'></i>
+          </li>
+          <li>
+            <i className='fab fa-stack-overflow'></i>
+          </li>
+        </ul>
       </article>
     </div>
-  </section>
+  </footer>
 );
 
 export default Footer;

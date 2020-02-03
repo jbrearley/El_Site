@@ -13,3 +13,51 @@ $color-grey-light-2: #aaa;
 
 $color-grey-dark-1: #54483a;
 $color-grey-dark-2: #6d5d4b;
+
+h1 {
+  font-size: 32px;
+
+  @media (min-width: $mediaMinWidth) and (max-width: $mediaTabletWidth) {
+    font-size: 36px;
+  }
+
+  @media (min-width: $mediaTabletWidth) {
+    font-size: 41px;
+  }
+}
+
+h2 {
+  font-size: 24px;
+
+  @media (min-width: $mediaMinWidth) and (max-width: $mediaTabletWidth) {
+    font-size: 28px;
+  }
+
+  @media (min-width: $mediaTabletWidth) {
+    font-size: 34px;
+  }
+}
+
+h3 {
+  font-size: 20px;
+
+  @media (min-width: $mediaMinWidth) and (max-width: $mediaTabletWidth) {
+    font-size: 22px;
+  }
+
+  @media (min-width: $mediaTabletWidth) {
+    font-size: 28px;
+  }
+}
+
+h4 {
+  font-size: 20px;
+
+  @media (min-width: $mediaTabletWidth) {
+    font-size: 26px;
+  }
+}
+
+p {
+  font-size: 18px;
+}

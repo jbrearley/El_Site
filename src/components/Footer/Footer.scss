@@ -1,9 +1,12 @@
 @import '../../sass/base';
 
-.section-dk-blue {
+footer {
   background-color: #223344;
   color: #fff;
   padding: 40px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 
   @media (min-width: $mediaMinWidth) and (max-width: $mediaTabletWidth) {
     padding: 60px 0;
@@ -12,4 +15,25 @@
   @media (min-width: $mediaTabletWidth) {
     padding: 80px 0;
   }
+
+  .footer-header {
+    margin-bottom: 12px;
+  }
+  // footer,
+  // div {
+  // @media (max-width: $mediaMinWidth) {
+  //   flex-direction: column;
+  //   align-items: center;
+  // }
+
+  // @media (min-width: $mediaTabletWidth) {
+  //   // flex-direction: row;
+  // }
+
+  // article {
+  //   @media (max-width: $mediaMinWidth) {
+  //     width: 100%;
+  //   }
+  // }
+  // }
 }
