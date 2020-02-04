@@ -20,6 +20,10 @@ footer {
     margin-bottom: 12px;
   }
 
+  .footer-container {
+    justify-content: space-between;
+  }
+
   .footer-ul {
     display: flex;
     flex-flow: row;

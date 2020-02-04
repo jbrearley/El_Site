@@ -2,4 +2,30 @@ header {
   background-color: #223344;
   color: #fff;
   padding: 26px 0;
+
+  nav {
+    display: flex;
+    width: 100%;
+
+    h3 {
+      width: 20%;
+    }
+  }
+
+  .nav-list {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    width: 80%;
+
+    li {
+      font-size: 20px;
+      line-height: 1.7;
+      //margin-right: 70px;
+    }
+
+    li:not(:last-child) {
+      margin-right: 70px;
+    }
+  }
 }
