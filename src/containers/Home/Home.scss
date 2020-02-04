@@ -1,7 +1,7 @@
 @import '../../sass/base';
 
-.section-grey {
-  background-color: #f5f5f5;
+.section {
+  //background-color: #f5f5f5;
   padding: 40px 0;
 
   @media (min-width: $mediaMinWidth) and (max-width: $mediaTabletWidth) {

@@ -4,7 +4,7 @@ import './Home.scss';
 
 function Home() {
   return (
-    <section className='section-grey'>
+    <section className='section'>
       <div className='wrapper'>
         <article>
           <h2>Home</h2>
