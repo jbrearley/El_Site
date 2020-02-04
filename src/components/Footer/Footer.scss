@@ -19,6 +19,16 @@ footer {
   .footer-header {
     margin-bottom: 12px;
   }
+
+  .footer-ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+    //li:not(:last-child) {
+    // margin-right: 12px;
+    //}
+  }
   // footer,
   // div {
   // @media (max-width: $mediaMinWidth) {
