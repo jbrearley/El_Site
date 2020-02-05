@@ -1,24 +1,24 @@
 import React from 'react';
-import { Link, withRouter } from 'react-router-dom';
 
 import './Header.scss';
+import NavItem from './NavItem/NavItem';
 
-const Header = () => {
+const Header = props => {
   return (
     <header>
       <div className='wrapper'>
         <nav>
           <h3>Andrew Peliza</h3>
           <ul className='nav-list'>
-            <li>
-              <Link to='/'>Home</Link>
-            </li>
-            <li>
-              <Link to='/experience'>Experience</Link>
-            </li>
-            <li>
-              <Link to='/projects'>Projects</Link>
-            </li>
+            <NavItem link='/' exact>
+              Home
+            </NavItem>
+            <NavItem link='/experience' exact>
+              Experience
+            </NavItem>
+            <NavItem link='/projects' exact>
+              Projects
+            </NavItem>
           </ul>
         </nav>
       </div>
@@ -26,4 +26,4 @@ const Header = () => {
   );
 };
 
-export default withRouter(Header);
+export default Header;

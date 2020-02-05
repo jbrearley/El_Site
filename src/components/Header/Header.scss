@@ -18,15 +18,5 @@ header {
     flex-flow: row;
     justify-content: flex-end;
     width: 80%;
-
-    li {
-      font-size: 20px;
-      line-height: 1.7;
-      //margin-right: 70px;
-    }
-
-    li:not(:last-child) {
-      margin-right: 70px;
-    }
   }
 }
