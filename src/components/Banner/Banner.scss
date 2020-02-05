@@ -1,0 +1,29 @@
+@import '../../sass/base';
+
+.section-banner {
+  div {
+    .banner-ul {
+      background-color: #e8e6e6;
+      display: flex;
+      padding: 16px 6px;
+      border-radius: 0 0 10px 10px;
+
+      @media (max-width: $mediaTabletWidth) {
+        margin-right: 12px;
+      }
+
+      li {
+        padding: 0 8px;
+
+        a,
+        .banner-fa-res {
+          font-size: 1.15em;
+
+          @media (min-width: $mediaTabletWidth) {
+            font-size: 1.4em;
+          }
+        }
+      }
+    }
+  }
+}
