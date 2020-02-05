@@ -1,15 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import './Header.scss';
 import NavItem from './NavItem/NavItem';
 
-const Header = props => {
+const Header = () => {
+  const [burgerMenuToggled, setBurgerMenuToggled] = useState(false);
+
   return (
     <header>
       <div className='wrapper'>
         <nav>
           <h3>Andrew Peliza</h3>
-          <ul className='nav-list'>
+          <div
+            className='burger'
+            onClick={() => {
+              setBurgerMenuToggled(!burgerMenuToggled);
+            }}
+          >
+            <div className='line'></div>
+            <div className='line'></div>
+            <div className='line'></div>
+          </div>
+          <ul className={burgerMenuToggled ? 'nav-list open' : 'nav-list'}>
             <NavItem link='/' exact>
               Home
             </NavItem>
