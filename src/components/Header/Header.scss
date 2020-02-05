@@ -1,11 +1,12 @@
 header {
   background-color: #223344;
   color: #fff;
-  padding: 26px 0;
 
   nav {
     display: flex;
+    align-items: center;
     width: 100%;
+    padding: 26px 0;
 
     h3 {
       width: 20%;
