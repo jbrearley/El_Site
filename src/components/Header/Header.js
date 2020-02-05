@@ -6,6 +6,10 @@ import NavItem from './NavItem/NavItem';
 const Header = () => {
   const [burgerMenuToggled, setBurgerMenuToggled] = useState(false);
 
+  const smartToggler = () => {
+    if (burgerMenuToggled) setBurgerMenuToggled(false);
+  };
+
   return (
     <header>
       <div className='wrapper'>
@@ -17,11 +21,22 @@ const Header = () => {
               setBurgerMenuToggled(!burgerMenuToggled);
             }}
           >
-            <div className='line'></div>
-            <div className='line'></div>
-            <div className='line'></div>
+            <div
+              className={burgerMenuToggled ? 'line modified-line-01' : 'line'}
+            ></div>
+            <div
+              className={burgerMenuToggled ? 'line modified-line-02' : 'line'}
+            ></div>
+            <div
+              className={burgerMenuToggled ? 'line modified-line-03' : 'line'}
+            ></div>
           </div>
-          <ul className={burgerMenuToggled ? 'nav-list open' : 'nav-list'}>
+          <ul
+            className={burgerMenuToggled ? 'nav-list open' : 'nav-list'}
+            onClick={() => {
+              smartToggler();
+            }}
+          >
             <NavItem link='/' exact>
               Home
             </NavItem>
