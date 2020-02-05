@@ -5,7 +5,7 @@ import './Footer.scss';
 
 const Footer = () => (
   <footer>
-    <div className='wrapper flex-row footer-container'>
+    <div className='wrapper flex footer-container'>
       <article>
         <h4 className='footer-header'>Site</h4>
         <ul>
