@@ -5,7 +5,7 @@
   margin: 0 auto;
   text-align: center;
 
-  @media (min-width: $mediaTabletWidth) {
+  @media screen and (min-width: $mediaTabletWidth) {
     width: 60%;
   }
 

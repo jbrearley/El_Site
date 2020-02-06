@@ -1,3 +1,5 @@
+@import '../../sass/base';
+
 header {
   background-color: #223344;
   color: #fff;
@@ -5,7 +7,11 @@ header {
   nav {
     display: flex;
     align-items: center;
-    padding: 26px 0;
+    padding: 32px 0;
+
+    @media screen and (min-width: $mediaMinWidth) {
+      padding: 26px 0;
+    }
 
     h3 {
       width: 20%;
@@ -24,7 +30,6 @@ header {
       h3 {
         width: 80%;
         position: absolute;
-        cursor: pointer;
         left: 10%;
         top: 50%;
         transform: translate(-5%, -50%);

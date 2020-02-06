@@ -8,19 +8,25 @@ const Projects = () => (
     <Banner />
     <section className='section'>
       <div className='wrapper'>
-        <article>
-          <h2>Projects</h2>
+        <article className='projects-title--container'>
+          <h1 className='projects-title'>Projects</h1>
           <p>The projects page info</p>
         </article>
       </div>
     </section>
-    <section className='section'>
-      <div className='wrapper flex flex-row projects-container'>
+    <section>
+      <div className='wrapper flex projects-container'>
         <article>
-          <p>The projects page info</p>
+          <h2>AJ Gyms</h2>
+          <p>
+            A React Gym application which lets you sign up to the gym, book
+            classes, view booked classes, remove booked classes and update your
+            profile information.
+          </p>
         </article>
         <article>
-          <p>The projects page info</p>
+          <h2>PWA-Gram</h2>
+          <p>PWA Web App which gives you a unique mobile feel to a web app.</p>
         </article>
       </div>
     </section>

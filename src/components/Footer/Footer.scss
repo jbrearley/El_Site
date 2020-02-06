@@ -8,11 +8,11 @@ footer {
   bottom: 0;
   width: 100%;
 
-  @media (min-width: $mediaMinWidth) and (max-width: $mediaTabletWidth) {
+  @media screen and (min-width: $mediaMinWidth) and (max-width: $mediaTabletWidth) {
     padding: 60px 0;
   }
 
-  @media (min-width: $mediaTabletWidth) {
+  @media screen and (min-width: $mediaTabletWidth) {
     padding: 80px 0;
   }
 
