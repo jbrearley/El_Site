@@ -14,6 +14,16 @@ const Projects = () => (
         </article>
       </div>
     </section>
+    <section className='section'>
+      <div className='wrapper flex flex-row projects-container'>
+        <article>
+          <p>The projects page info</p>
+        </article>
+        <article>
+          <p>The projects page info</p>
+        </article>
+      </div>
+    </section>
   </React.Fragment>
 );
 

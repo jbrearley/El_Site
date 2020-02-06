@@ -58,7 +58,7 @@ const Experience = () => (
                 boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)'
               }}
             >
-              <h3 className='padding-bottom-sm' style={{ color: '#61b8ff' }}>
+              <h3 className='padding-bottom-sm'>
                 Lead Frontend Developer, Dyne
               </h3>
               <h4>Contract</h4>
