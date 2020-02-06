@@ -2,6 +2,7 @@ import React from 'react';
 
 import './Projects.scss';
 import Banner from '../../components/Banner/Banner';
+import Button from '../../components/UI/Button';
 
 const Projects = () => (
   <React.Fragment>
@@ -17,16 +18,38 @@ const Projects = () => (
     <section>
       <div className='wrapper flex projects-container'>
         <article>
-          <h2>AJ Gyms</h2>
-          <p>
-            A React Gym application which lets you sign up to the gym, book
-            classes, view booked classes, remove booked classes and update your
-            profile information.
-          </p>
+          <div className='article-content-boxes'>
+            <h3>AJ Gyms</h3>
+            <p>
+              A React Gym application which lets you sign up to the gym, book
+              classes, view booked classes, remove booked classes and update
+              your profile information.
+            </p>
+          </div>
+          <a
+            href='https://github.com/ElAndy94/AJGyms'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <Button btnType='success'>Repo</Button>
+          </a>
         </article>
         <article>
-          <h2>PWA-Gram</h2>
-          <p>PWA Web App which gives you a unique mobile feel to a web app.</p>
+          <div className='article-content-boxes'>
+            <h3>PWA-Gram</h3>
+            <p>
+              PWA Web App which gives you a unique mobile feel to a web app.
+              This is where caching is taken to the next level, a little taste
+              of the future.
+            </p>
+          </div>
+          <a
+            href='https://github.com/ElAndy94/pwa-gram'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <Button btnType='success'>Repo</Button>
+          </a>
         </article>
       </div>
     </section>

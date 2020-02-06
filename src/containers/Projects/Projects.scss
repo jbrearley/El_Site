@@ -21,6 +21,10 @@
   @media screen and (min-width: $mediaTabletWidth) {
     flex-flow: row;
     text-align: left;
+
+    .article-content-boxes {
+      min-height: 160px;
+    }
   }
 
   article + article {
