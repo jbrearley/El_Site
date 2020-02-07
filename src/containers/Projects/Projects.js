@@ -11,7 +11,7 @@ const Projects = () => (
       <div className='wrapper'>
         <article className='projects-title--container'>
           <h1 className='projects-title'>Projects</h1>
-          <p>The projects page info</p>
+          <p>All my projects can be found in my Github</p>
         </article>
       </div>
     </section>
@@ -31,7 +31,10 @@ const Projects = () => (
             target='_blank'
             rel='noopener noreferrer'
           >
-            <Button btnType='success'>Repo</Button>
+            <Button btnType='success'>
+              <span className='btn--invisible'>AJGyms</span>
+              <i class='fab fa-github fa-lg btn--visible'></i>
+            </Button>
           </a>
         </article>
         <article>
@@ -48,7 +51,10 @@ const Projects = () => (
             target='_blank'
             rel='noopener noreferrer'
           >
-            <Button btnType='success'>Repo</Button>
+            <Button btnType='success'>
+              <span className='btn--invisible'>AJGyms</span>
+              <i class='fab fa-github fa-lg btn--visible'></i>
+            </Button>
           </a>
         </article>
       </div>

@@ -9,6 +9,9 @@ const Experience = () => (
     <Banner />
     <section className='section'>
       <div className='wrapper'>
+        <article>
+          <h1>Experience</h1>
+        </article>
         <article className='timeline-container'>
           <Timeline lineColor={'#ddd'}>
             <TimelineItem
