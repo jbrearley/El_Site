@@ -12,8 +12,8 @@
   text-align: center;
   cursor: pointer;
   font: inherit;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .button:first-of-type {
@@ -31,7 +31,7 @@
   color: #fff;
   font-size: 24px;
   height: 56px;
-  width: 22%;
+  width: 33%;
 
   @media screen and (max-width: $mediaMinWidth) {
     height: 50px;
@@ -46,9 +46,28 @@
   background-color: #006e3e;
 }
 
+span {
+  transition: all 0.2s;
+}
+
 .btn--invisible {
-  position: absolute;
-  padding: 2rem 0;
-  left: 0;
-  top: -100%;
+  //position: relative;
+  //padding: 2rem 0;
+  //left: 0;
+  //top: -100%;
+  display: none;
+  transform: translateY(114%);
+}
+
+// .btn--visible {
+//padding: 2rem 7.5rem;
+// }
+
+button:hover .btn--visible {
+  transform: translateY(140%);
+}
+
+button:hover .btn--invisible {
+  display: block;
+  transform: translateY(44%);
 }

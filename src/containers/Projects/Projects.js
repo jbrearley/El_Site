@@ -33,7 +33,7 @@ const Projects = () => (
           >
             <Button btnType='success'>
               <span className='btn--invisible'>AJGyms</span>
-              <i class='fab fa-github fa-lg btn--visible'></i>
+              <i className='fab fa-github fa-lg btn--visible'></i>
             </Button>
           </a>
         </article>
@@ -52,8 +52,8 @@ const Projects = () => (
             rel='noopener noreferrer'
           >
             <Button btnType='success'>
-              <span className='btn--invisible'>AJGyms</span>
-              <i class='fab fa-github fa-lg btn--visible'></i>
+              <span className='btn--invisible'>PWA Gram</span>
+              <i className='fab fa-github fa-lg btn--visible'></i>
             </Button>
           </a>
         </article>
