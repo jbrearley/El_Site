@@ -12,15 +12,6 @@ const Experience = () => {
         <div className='wrapper'>
           <article className='center-mb'>
             <h1>Experience</h1>
-            {/*
-            <p>
-              Feel free to toggle between two different layouts of my experience
-            </p>
-             <div className='toggle'>
-              <input type='checkbox' className='check' />
-              <b className='b switch'></b>
-              <b className='b track'></b>
-            </div> */}
           </article>
           <article className='timeline-container'>
             <Timeline />
@@ -32,3 +23,14 @@ const Experience = () => {
 };
 
 export default Experience;
+
+/*
+  <p>
+    Feel free to toggle between two different layouts of my experience
+  </p>
+    <div className='toggle'>
+    <input type='checkbox' className='check' />
+    <b className='b switch'></b>
+    <b className='b track'></b>
+  </div> 
+*/
