@@ -17,6 +17,12 @@
   justify-content: flex-end;
 }
 
+.center-mb {
+  @media screen and (max-width: $mediaMinWidth) {
+    text-align: center;
+  }
+}
+
 .section {
   padding: 40px 0;
 
