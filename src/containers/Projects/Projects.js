@@ -52,7 +52,7 @@ const Projects = () => (
             rel='noopener noreferrer'
           >
             <Button btnType='success'>
-              <span className='btn--invisible'>PWA Gram</span>
+              <span className='btn--invisible'>PWA</span>
               <i className='fab fa-github fa-lg btn--visible'></i>
             </Button>
           </a>

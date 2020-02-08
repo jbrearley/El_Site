@@ -1,5 +1,5 @@
 $duration: 0.5s;
-$red: #f37272;
+$navUnderlineColour: #15abc5;
 
 .nav-item {
   font-size: 20px;
@@ -15,20 +15,20 @@ $red: #f37272;
       display: block;
       width: 0;
       height: 2px;
-      background: $red;
+      background: $navUnderlineColour;
       width: 100%;
     }
-  }
 
-  a::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: $red;
-    transition: width $duration;
-  }
-  a:hover::after {
-    width: 100%;
+    &::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background: $navUnderlineColour;
+      transition: width $duration;
+    }
+    &:hover::after {
+      width: 100%;
+    }
   }
 }

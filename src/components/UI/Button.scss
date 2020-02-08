@@ -12,8 +12,8 @@
   text-align: center;
   cursor: pointer;
   font: inherit;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .button:first-of-type {
@@ -47,21 +47,13 @@
 }
 
 span {
-  transition: all 0.2s;
+  transition: all 0.5s;
 }
 
 .btn--invisible {
-  //position: relative;
-  //padding: 2rem 0;
-  //left: 0;
-  //top: -100%;
   display: none;
   transform: translateY(114%);
 }
-
-// .btn--visible {
-//padding: 2rem 7.5rem;
-// }
 
 button:hover .btn--visible {
   transform: translateY(140%);
