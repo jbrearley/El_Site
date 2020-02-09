@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Experience.scss';
+// import './Experience.scss';
 import Banner from '../../components/Banner/Banner';
 import Timeline from '../../components/Timeline/Timeline';
 

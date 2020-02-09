@@ -10,7 +10,7 @@ function Home() {
       <section className='section'>
         <div className='wrapper'>
           <article className='home-container'>
-            <h2>Hello!</h2>
+            <h1>Welcome!</h1>
             <p>My name is Andrew Peliza, I am a Software Engenieer.</p>
             <p>
               A passion for development with an added bonus of a First Class
