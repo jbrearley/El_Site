@@ -10,7 +10,7 @@ const Experience = () => {
       <Banner />
       <section className='section experience-section'>
         <div className='wrapper'>
-          <article className='center-mb'>
+          <article className='center'>
             <h1>Experience</h1>
           </article>
           <article className='timeline-container'>

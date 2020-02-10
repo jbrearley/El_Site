@@ -17,6 +17,10 @@
   justify-content: flex-end;
 }
 
+.center {
+  text-align: center;
+}
+
 .center-mb {
   @media screen and (max-width: $mediaMinWidth) {
     text-align: center;

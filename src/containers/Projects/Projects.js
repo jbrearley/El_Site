@@ -12,7 +12,7 @@ const Projects = () => (
         <article className='projects-title--container'>
           <h1 className='projects-title'>Projects</h1>
           <p>All my projects can be found in my Github. </p>
-          <p>I shared two here!</p>
+          <p>I shared two interesting projects below.</p>
         </article>
       </div>
     </section>
