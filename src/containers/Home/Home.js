@@ -11,7 +11,7 @@ function Home() {
         <div className='wrapper'>
           <article className='home-container'>
             <h1>Welcome!</h1>
-            <p>My name is Andrew Peliza, I am a Software Engenieer.</p>
+            <p>My name is Andrew Peliza, I am a Software Engineer.</p>
             <p>
               A passion for development with an added bonus of a First Class
               Honours Degree in Computer Science.
